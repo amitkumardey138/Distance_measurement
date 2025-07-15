@@ -33,11 +33,24 @@ This project is a simple distance measurement system developed as part of the **
 
 ---
 
-## Working Principle
+## 📄 License
 
-The TP223 capacitive touch sensor acts as an ON/OFF switch. When touched, it toggles the Arduino into an active measuring state. While active, the Arduino sends a pulse through the HC-SR04, which emits an ultrasonic wave. The time it takes for the echo to return is used to calculate distance using the formula:
+This project is licensed under the **Creative Commons** — you are free to use, modify, and distribute it for educational or non-commercial purposes, with proper attribution.
 
-```latex
-\[
-\text{Distance (cm)} = \frac{\text{Time (microseconds)} \times 0.0343}{2}
-\]
+---
+
+### 👥 Authors
+
+- **Amit Kumar Dey**  
+  Student ID: 2102033  
+  Department of Electrical and Electronic Engineering  
+  Chittagong University of Engineering and Technology (CUET)  
+
+- **Md. Zuhayr Akhtab**  
+  Student ID: 2102046  
+  Department of Electrical and Electronic Engineering  
+  Chittagong University of Engineering and Technology (CUET)
+
+---
+
+© 2025 Amit Kumar Dey and Md. Zuhayr Akhtab. All rights reserved.
